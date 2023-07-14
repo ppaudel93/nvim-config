@@ -15,6 +15,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'tpope/vim-commentary'
+Plug 'lukas-reineke/indent-blankline.nvim'
 
 --LSP
 Plug 'neovim/nvim-lspconfig'
