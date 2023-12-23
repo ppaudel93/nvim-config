@@ -16,6 +16,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'tpope/vim-commentary'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'morhetz/gruvbox'
 
 --LSP
 Plug 'neovim/nvim-lspconfig'
@@ -32,3 +33,4 @@ Plug 'rafamadriz/friendly-snippets'
 Plug 'VonHeikemen/lsp-zero.nvim'
 
 vim.call('plug#end')
+vim.cmd('set termguicolors')

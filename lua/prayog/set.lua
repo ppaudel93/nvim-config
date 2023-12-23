@@ -23,6 +23,6 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "100"
 
-vim.opt.guifont = "Input Mono:h14"
+vim.opt.guifont = "Input Mono:h16"
 
 vim.g.neovide_cursor_animation_length=0.02
