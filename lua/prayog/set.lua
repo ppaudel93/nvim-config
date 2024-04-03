@@ -23,7 +23,10 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "100"
 
-vim.opt.guifont = "Input Mono:h16"
+vim.opt.guifont = "Input Mono:h14, Arial:h14"
 vim.opt.ignorecase = true
 
-vim.g.neovide_cursor_animation_length=0.02
+if vim.g.neovide then
+    vim.g.neovide_cursor_animation_length=0
+    vim.g.neovide_transparency = 0.9
+end
