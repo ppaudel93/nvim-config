@@ -4,19 +4,28 @@ vim.call('plug#begin')
 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+
 Plug 'preservim/nerdtree'
-Plug 'EdenEast/nightfox.nvim'
+
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = ":TSUpdate"})
+
 Plug 'ThePrimeagen/harpoon'
+
 Plug 'mbbill/undotree'
+
 Plug 'tpope/vim-fugitive'
-Plug 'preservim/nerdtree'
+
 Plug 'https://github.com/ryanoasis/vim-devicons'
+
 Plug 'vim-airline/vim-airline'
+
 Plug 'kyazdani42/nvim-web-devicons'
+
 Plug 'tpope/vim-commentary'
+
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'morhetz/gruvbox'
+
+Plug 'ellisonleao/gruvbox.nvim'
 
 --LSP
 Plug 'neovim/nvim-lspconfig'

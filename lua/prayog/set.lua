@@ -23,8 +23,10 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "100"
 
-vim.opt.guifont = "Input Mono, Arial:h15"
+vim.opt.guifont = "FiraCode Nerd Font, Input Mono, Arial:h15"
 vim.opt.ignorecase = true
+
+vim.opt.guicursor = "n-v-i-c:block-Cursor"
 
 if vim.g.neovide then
     vim.g.neovide_cursor_animation_length=0
