@@ -26,3 +26,15 @@ require('mason-lspconfig').setup({
         lsp_zero.default_setup,
     },
 })
+
+local cmp = require('cmp')
+cmp.setup({
+    sources = {
+        { name = 'nvim_lsp' },
+        { name = 'buffer' },
+    },
+    preselect = 'item',
+    completion = {
+        completeopt = 'menu,menuone,noinsert'
+    },
+})
