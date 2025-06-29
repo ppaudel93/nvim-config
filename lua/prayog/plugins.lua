@@ -28,17 +28,26 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'ellisonleao/gruvbox.nvim'
 
 --LSP
-Plug 'neovim/nvim-lspconfig'
+-- Uncomment the two plugins below if you want to manage the language servers from neovim
+-- and read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
+
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
+
+-- LSP Support
+Plug 'neovim/nvim-lspconfig'
+-- Autocompletion
 Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'L3MON4D3/LuaSnip'
-Plug 'rafamadriz/friendly-snippets'
+
+Plug 'nvim-java/nvim-java-refactor'
+Plug 'nvim-java/nvim-java-core'
+Plug 'nvim-java/nvim-java-test'
+Plug 'nvim-java/nvim-java-dap'
+Plug 'nvim-java/nvim-java'
+Plug 'JavaHello/spring-boot.nvim'
+
 Plug 'VonHeikemen/lsp-zero.nvim'
 
 vim.call('plug#end')
