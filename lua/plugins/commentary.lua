@@ -1,3 +1,3 @@
 return {
-    { "tpope/vim-commentary", opts = {} }
+    { "tpope/vim-commentary" }
 }

@@ -1,3 +1,6 @@
 return {
-    { "mbbill/undotree", opts = {} }
+    {
+        "mbbill/undotree", setup = function()
+        end
+    }
 }

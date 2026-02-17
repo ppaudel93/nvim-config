@@ -5,3 +5,6 @@ vim.opt.listchars:append "space:."
 vim.opt.listchars:append "trail:."
 
 vim.cmd.colorscheme("gruvbox")
+
+vim.lsp.enable('gopls')
+vim.lsp.enable('jdtls')
