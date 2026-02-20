@@ -1,9 +1,7 @@
 # NVIM Config
 
-Contains plugins for basic Nvim configuration. Requires [vim-plug](https://github.com/junegunn/vim-plug) to be installed.
-`ripgrep` needs to be installed for telescope to work properly.
-
-After installing [vim-plug](https://github.com/junegunn/vim-plug), run `:PlugInstall` to install the plugins.
+Contains plugins for basic Neovim configuration.
+[ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation) needs to be installed for telescope to work properly.
 
 Some basic key maps:
 * \<leader\>tt Open Nerdtree and focus on current file
